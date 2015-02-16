@@ -7,17 +7,18 @@ use Proxy\Factory;
 use Proxy\Response\Filter\RemoveEncodingFilter;
 use Symfony\Component\HttpFoundation\Request;
 
-require '/proxy/vendor/autoload.php';
-require '/proxy/src/Encrypt.php';
+require 'vendor/autoload.php';
+require 'src/Encrypt.php';
 
 // $uri = $_SERVER['REQUEST_SCHEME']. "://" .$_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-$uri = $_SERVER['REQUEST_URI'];
-$c = new App_Sandbox_Cipher('Magesh');
-$encrypted = $c->encrypt($uri);
+// $uri = $_SERVER['REQUEST_URI'];
+// $c = new App_Sandbox_Cipher('Magesh');
+// $encrypted = $c->encrypt($uri);
 // die($c->decrypt("5b132560a9cd7841d82681fd8b9dfa7992cf3f9755c8778b"));
-$path = "http://phpserver.2fh.co/".$encrypted;
+// $path = "http://phpserver.2fh.co/".$encrypted;
 // $path = "https://college-great.appspot.com/main.php?url=".$uri;
-die("$uri<br>$path");
+// die("$uri<br>$path");
+$path = "http://www.google.com";
 
 // Create the proxy factory.
 $proxy = Factory::create();
