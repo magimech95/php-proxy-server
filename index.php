@@ -18,6 +18,7 @@ require 'src/Encrypt.php';
 // $path = "http://phpserver.2fh.co/".$encrypted;
 // $path = "https://college-great.appspot.com/main.php?url=".$uri;
 // die("$uri<br>$path");
+
 $path = "http://www.google.com";
 
 // Create the proxy factory.
