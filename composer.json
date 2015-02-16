@@ -1,0 +1,9 @@
+{
+    "name": "proxy",
+    "description": "Proxy library that forwards requests to the desired url and returns the response.",
+    "type": "library",
+    "keywords": ["proxy"],
+	"require": {
+		"guzzle/guzzle": "~3.7.0|~3.9.9"
+	}
+}
