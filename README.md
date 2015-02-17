@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PHP Proxy
 
 [![Build Status](http://img.shields.io/travis/jenssegers/php-proxy.svg)](https://travis-ci.org/jenssegers/php-proxy) [![Coverage Status](http://img.shields.io/coveralls/jenssegers/php-proxy.svg)](https://coveralls.io/r/jenssegers/php-proxy?branch=master)
@@ -111,3 +112,7 @@ $response = $proxy->forward($request)->to('http://example.com');
 // Output response to the browser.
 $response->send();
 ```
+=======
+# php-proxy-server
+Proxy server using PHP
+>>>>>>> 0f5d44c4e2b21ff83bc5ca43526d20d80aaaf92f
